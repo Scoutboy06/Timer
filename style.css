@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto');
+
+body {
+	margin: 0;
+	font-family: Roboto, sans-serif;
+	background: #121212;
+}
+
+.clock {
+	width: 100vw;
+	height: 80vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+	font-size: 15vw;
+}
+
+.clock span {
+	width: 90vw;;
+	background: #232323;
+	text-align: center;
+	border-radius: 15px;
+	box-shadow: 2px 5px 4px rgba(0, 0, 0, .5);
+	padding: 50px 0;
+}
+
+.bottom {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100px;
+}
+
+.bottom .button {
+	border: 1px solid #000;
+	font-size: 4vw;
+	margin: 0 10px;
+	border-radius: 10px;
+	padding: 10px 80px;
+	cursor: pointer;
+	box-shadow: 2px 5px 4px rgba(0, 0, 0, .5);
+	outline: none;
+}
+
+.bottom .clear,
+.bottom .start {
+	background: #232323;
+	color: #fff;
+	transition: background .3s;
+}
+
+.bottom .clear:hover {
+	background: yellow;
+	color: #000;
+}
+
+
+.bottom .start:hover,
+.bottom .start:focus {
+	background: green;
+}
+
+.bottom .start:hover {
+	background: green;
+}
+
+
+.bottom .stop {
+	background: red;
+	color: #fff;
+}
